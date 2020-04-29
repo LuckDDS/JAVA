@@ -17,9 +17,25 @@ import java.util.List;
 public class DyUserServiceImpl implements DyUserService {
     @Resource
     private DyUserDao dyUserDao;
+
     @Override
     public List<DyUser> findAll(){
         return dyUserDao.findAll();
     }
 
+    @Override
+    public void addUser(DyUser user) {
+        dyUserDao.addUser(user);
+    }
+
+    @Override
+    public void deleteUser(String id) {
+        dyUserDao.deleteUser(id);
+    }
+
+    @Override
+    public DyUser findUser(Integer id) {
+        return dyUserDao.findUser(id);
+    }
 }
+

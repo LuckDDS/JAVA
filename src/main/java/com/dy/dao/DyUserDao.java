@@ -16,4 +16,19 @@ public interface DyUserDao {
      * @return
      * */
     List <DyUser> findAll();
+    /**
+     * 添加用户
+     * */
+    void addUser(DyUser user);
+    /**
+     * 删除用户
+     * @param id
+     */
+    void deleteUser(String id);
+    /**
+     * 查找指定用户
+     * @param id
+     * @return 用户信息
+     * */
+    DyUser findUser(Integer id);
 }
