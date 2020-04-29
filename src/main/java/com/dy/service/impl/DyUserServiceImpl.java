@@ -13,7 +13,7 @@ import java.util.List;
  * @author DongDeShuai
  * @Date:2020/4/28 2:51 下午
  */
-//@Service
+@Service
 public class DyUserServiceImpl implements DyUserService {
     @Resource
     private DyUserDao dyUserDao;

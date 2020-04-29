@@ -14,8 +14,19 @@ import java.util.List;
  * @author DongDeShuai
  * @Date:2020/4/28 2:54 下午
  */
-
+@Controller
+@RequestMapping(value = "/user")
 public class DyUserController {
+    @Resource
+    private DyUserService dyUserService;
 
-
+    @GetMapping("/findAll")
+    public String findAll(Model model){
+        List<DyUser> dyUserList = dyUserService.findAll();
+        for (DyUser dyUser : dyUserList){
+            System.out.println("id:"+dyUser.getId());
+            System.out.println("name:"+dyUser.getName());
+        }
+        return "hello";
+    }
 }

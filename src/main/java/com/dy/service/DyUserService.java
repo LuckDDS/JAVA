@@ -10,7 +10,6 @@ import java.util.List;
  * @author DongDeShuai
  * @Date:2020/4/28 2:49 下午
  */
-//@Service
 public interface DyUserService  {
      List<DyUser> findAll();
 }
