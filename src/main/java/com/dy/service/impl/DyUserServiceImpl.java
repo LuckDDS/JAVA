@@ -37,5 +37,10 @@ public class DyUserServiceImpl implements DyUserService {
     public DyUser findUser(Integer id) {
         return dyUserDao.findUser(id);
     }
+
+    @Override
+    public void updateUser(Integer id, String name, String password) {
+        dyUserDao.updateUser(id, name, password);
+    }
 }
 

@@ -1,6 +1,7 @@
 package com.dy.dao;
 
 import com.dy.model.DyUser;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -18,6 +19,7 @@ public interface DyUserDao {
     List <DyUser> findAll();
     /**
      * 添加用户
+     * @param user
      * */
     void addUser(DyUser user);
     /**
@@ -31,4 +33,12 @@ public interface DyUserDao {
      * @return 用户信息
      * */
     DyUser findUser(Integer id);
+
+    /**
+     * 更新用户信息
+     * @param password
+     * @param name
+     * @param id
+     * */
+    void updateUser(@Param("id") Integer id, @Param("name") String name,@Param("password") String password);
 }

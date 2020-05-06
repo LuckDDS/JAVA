@@ -52,4 +52,10 @@ public class DyUserController {
         System.out.println(user.getId()+user.getName()+user.getPassword());
         return "hello";
     }
+    @GetMapping("/updateUser")
+    public String updateUser(@Param("id") Integer id,@Param("name") String name
+            ,@Param("password") String password){
+        dyUserService.updateUser(id,name,password);
+        return "hello";
+    }
 }

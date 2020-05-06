@@ -31,4 +31,11 @@ public interface DyUserService  {
       * @return
       * */
      DyUser findUser(Integer id);
+     /**
+      * 更新用户信息
+      * @param id
+      * @param name
+      * @param password
+      * */
+     void updateUser(Integer id,String name,String password);
 }
