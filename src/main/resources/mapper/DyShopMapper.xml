@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dy.dao.DyShopDao">
+
+<!--    <insert id="createShop" useGeneratedKeys="true" keyProperty="shop_id">-->
+<!--        insert into dy_shop-->
+<!--        <trim prefix="(" suffix=")" suffixOverrides=",">-->
+<!--            <if test="userId != null and userId != ''">-->
+<!--                user_id,-->
+<!--            </if>-->
+<!--            <if test="shopName != null and shopName != ''">-->
+<!--                shop_name,-->
+<!--            </if>-->
+<!--        </trim>-->
+<!--        <trim prefix="values(" suffix=")" suffixOverrides=",">-->
+<!--            <if test="userId != null and userId != ''">-->
+<!--                #{userId},-->
+<!--            </if>-->
+<!--            <if test="shopName != null and shopName != ''">-->
+<!--                #{shopName},-->
+<!--            </if>-->
+<!--        </trim>-->
+<!--    </insert>-->
+
+</mapper>

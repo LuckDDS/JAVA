@@ -18,10 +18,10 @@ public interface DyUserDao {
      * */
     List <DyUser> findAll();
     /**
-     * 添加用户
+     * 用户注册
      * @param user
      * */
-    void addUser(DyUser user);
+    void register(DyUser user);
     /**
      * 删除用户
      * @param id
@@ -35,10 +35,21 @@ public interface DyUserDao {
     DyUser findUser(Integer id);
 
     /**
-     * 更新用户信息
+     * 更新用户信息,多个参数时使用Param修饰可以在mapper中的xml直接使用
      * @param password
      * @param name
      * @param id
      * */
     void updateUser(@Param("id") Integer id, @Param("name") String name,@Param("password") String password);
+    /**
+     * 更新用户信息
+     * */
+    void updateUserMessage(DyUser user);
+
+    /**
+     * 查询同名的用户的个数
+     * @param name
+     * @return 返回重名的个数
+     */
+    int countByName(String name);
 }

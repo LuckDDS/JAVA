@@ -1,6 +1,9 @@
 package com.dy.service;
 
+import com.dy.model.AyStudent;
+import com.dy.model.AyUser;
 import com.dy.model.DyUser;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -16,10 +19,10 @@ public interface DyUserService  {
      List<DyUser> findAll();
 
      /**
-      * 添加用户信息
+      * 用户注册
       * @param user
       * */
-     void addUser(DyUser user);
+     void register(DyUser user);
      /**
       * 删除用户
       * @param id
@@ -38,4 +41,46 @@ public interface DyUserService  {
       * @param password
       * */
      void updateUser(Integer id,String name,String password);
+
+     /**
+      * 更新用户信息
+      * @param user
+      * */
+     void updateUserMessage(DyUser user);
+
+     /**
+      * 查询重名用户的个数
+      * @param realName
+      * @return
+      * */
+     int countByName(String realName);
+     /**
+      * s
+      * @param name
+      * @param pw
+      * @return
+      */
+     List<DyUser> findByNameAndPassword(String name,String pw);
+
+     /**
+      * 更新用户信息
+      * @param nickName
+      * @param id
+      * @param phoneN
+      */
+     void updateUserMessage(String nickName,String phoneN,String id);
+     /**
+      * 查找多个用户的信息
+      * @param list
+      * @return
+      */
+     List<DyUser> findUserByIds(List<String> list);
+     /**
+      * 查询用户(关联查询)
+      * @param id
+      * @return
+      */
+     AyUser findById(Integer id);
+
+     AyStudent findStudentById(String id);
 }

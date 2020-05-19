@@ -7,31 +7,67 @@ import java.io.Serializable;
  * @Date:2020/4/28 2:44 下午
  */
 public class DyUser implements Serializable {
-    private Integer id;
-    private String name;
+    private String id;
+    private String realname;
     private String password;
+    private String nickname;
+    private String phone;
+    private String gender;
+    private String address;
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRealname(String name) {
+        this.realname = name;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public void setPassword(String password) {
         this.password = password;
     }
 
-    public Integer getId() {
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getId() {
         return id;
     }
 
-    public String getName() {
-        return name;
+    public String getRealname() {
+        return realname;
     }
 
     public String getPassword() {
         return password;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public String getAddress() {
+        return address;
     }
 }
