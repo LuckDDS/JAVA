@@ -1,14 +1,27 @@
 package com.dy.model;
 
+import jdk.nashorn.internal.objects.annotations.Getter;
+import jdk.nashorn.internal.objects.annotations.Setter;
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import java.io.Serializable;
+
 /**
  * @author DongDeShuai
  * @Date:2020/5/14 2:27 下午
  */
-public class AyUser {
+public class AyUser implements Serializable {
     private Integer id;
+    @NotBlank(message = "姓名不能为空")
     private String name;
+
+    @Length(min = 6,max = 12,message = "密码长度必须在6-12")
     private String password;
+
     private Integer age;
+
     private Integer addressId;
     /**
      * 用户和地址一一对应,即一个用户只有一个老家地址

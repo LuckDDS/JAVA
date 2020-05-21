@@ -7,42 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37d4bce-953c-4ae2-9f39-75086381a3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyShopController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/controller/DySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/dao/AySchoolDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/dao/AyStudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/dao/AyUserAddressDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/dao/AyUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/dao/DyShopDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/dao/DyTestDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/factory/FactoryMethodPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/factory/SimpleFactoryPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/model/AySchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/model/AyStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/model/AyUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/model/AyUserAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/model/DyShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/service/DyShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/service/impl/DyShopServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AySchoolMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AyStudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AyUserAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AyUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DyShopMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DyUserTestMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TestDynamicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dy/validator/AyUserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/dy/AyUserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/dy/BaseJunit4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyShopController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/dao/DyUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/dao/DyUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/model/DyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/model/DyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/service/DyUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/service/DyUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/service/impl/DyUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/service/impl/DyUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DyUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DyUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/factory/FactoryMethodPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/factory/FactoryMethodPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/model/AyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/model/AyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AyUserAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AyUserAddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AyUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AyUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/dy/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/dy/SpringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +35,9 @@
         <option value="mybatis-config" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="mybatis-mapper" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -144,7 +122,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AyUserDaoTest.testPageHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dong" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dy" />
+      <option name="MAIN_CLASS_NAME" value="com.dy.AyUserDaoTest" />
+      <option name="METHOD_NAME" value="testPageHelper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTest.testPageHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dong" />
       <extension name="coverage">
         <pattern>
@@ -154,7 +148,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dy" />
       <option name="MAIN_CLASS_NAME" value="com.dy.SpringTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testPageHelper" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -353,16 +348,18 @@
     <list>
       <item itemvalue="Application.SimpleFactoryPattern" />
       <item itemvalue="Application.FactoryMethodPattern" />
-      <item itemvalue="JUnit.SpringTest" />
       <item itemvalue="JUnit.SpringTest.testSpring" />
+      <item itemvalue="JUnit.SpringTest.testPageHelper" />
+      <item itemvalue="JUnit.AyUserDaoTest.testPageHelper" />
       <item itemvalue="Tomcat Server.tomcat8.0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AyUserDaoTest.testPageHelper" />
+        <item itemvalue="JUnit.SpringTest.testSpring" />
+        <item itemvalue="JUnit.SpringTest.testPageHelper" />
         <item itemvalue="Application.FactoryMethodPattern" />
         <item itemvalue="Application.SimpleFactoryPattern" />
-        <item itemvalue="JUnit.SpringTest.testSpring" />
-        <item itemvalue="JUnit.SpringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +392,10 @@
       <workItem from="1589334211590" duration="16213000" />
       <workItem from="1589420866690" duration="11518000" />
       <workItem from="1589765268149" duration="14564000" />
-      <workItem from="1589852656650" duration="435000" />
+      <workItem from="1589852656650" duration="11070000" />
+      <workItem from="1589942156690" duration="3253000" />
+      <workItem from="1589947759737" duration="14000" />
+      <workItem from="1590023546565" duration="8870000" />
     </task>
     <servers />
   </component>
@@ -433,10 +433,10 @@
     </state>
     <state x="134" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.709@0.23.1280.709" timestamp="1588138892400" />
     <state x="134" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.710@0.23.1280.710" timestamp="1588140343026" />
-    <state x="497" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1589786558229">
+    <state x="497" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1590029518745">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="497" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1589786558229" />
+    <state x="497" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1590029518745" />
     <state x="497" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1280.710@0.23.1280.710" timestamp="1588153592642" />
     <state x="386" y="23" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1587888518918">
       <screen x="0" y="23" width="1280" height="709" />
@@ -461,95 +461,95 @@
     <state x="335" y="23" key="#tomcat8" timestamp="1588129606505">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="311" y="23" key="#tomcat8.0" timestamp="1589787247156">
+    <state x="311" y="23" key="#tomcat8.0" timestamp="1590041977718">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="311" y="23" key="#tomcat8.0/0.23.1280.709@0.23.1280.709" timestamp="1589787247156" />
+    <state x="311" y="23" key="#tomcat8.0/0.23.1280.709@0.23.1280.709" timestamp="1590041977718" />
     <state x="311" y="23" key="#tomcat8.0/0.23.1280.710@0.23.1280.710" timestamp="1588153777123" />
     <state x="335" y="23" key="#tomcat8/0.23.1280.709@0.23.1280.709" timestamp="1588129606505" />
     <state width="423" height="438" key="DebuggerActiveHint" timestamp="1588148802488">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
     <state width="423" height="438" key="DebuggerActiveHint/0.23.1280.710@0.23.1280.710" timestamp="1588148802488" />
-    <state width="937" height="2" key="GridCell.Tab.0.bottom" timestamp="1589796449714">
+    <state width="937" height="96" key="GridCell.Tab.0.bottom" timestamp="1590042094409">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1589796449714" />
+    <state width="937" height="96" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1590042094409" />
     <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1588154573532" />
-    <state width="937" height="2" key="GridCell.Tab.0.center" timestamp="1589796449712">
+    <state width="937" height="96" key="GridCell.Tab.0.center" timestamp="1590042094408">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1589796449712" />
+    <state width="937" height="96" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1590042094408" />
     <state width="1238" height="190" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1588154573531" />
-    <state width="937" height="2" key="GridCell.Tab.0.left" timestamp="1589796449711">
+    <state width="937" height="96" key="GridCell.Tab.0.left" timestamp="1590042094408">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1589796449711" />
+    <state width="937" height="96" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1590042094408" />
     <state width="1238" height="190" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1588154573531" />
-    <state width="937" height="2" key="GridCell.Tab.0.right" timestamp="1589796449713">
+    <state width="937" height="96" key="GridCell.Tab.0.right" timestamp="1590042094409">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1589796449713" />
+    <state width="937" height="96" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1590042094409" />
     <state width="1238" height="190" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1588154573532" />
-    <state width="937" height="2" key="GridCell.Tab.1.bottom" timestamp="1589796449715">
+    <state width="937" height="96" key="GridCell.Tab.1.bottom" timestamp="1590042094410">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1589796449715" />
+    <state width="937" height="96" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1590042094410" />
     <state width="937" height="2" key="GridCell.Tab.1.bottom/0.23.1280.710@0.23.1280.710" timestamp="1588154573524" />
-    <state width="937" height="2" key="GridCell.Tab.1.center" timestamp="1589796449714">
+    <state width="937" height="96" key="GridCell.Tab.1.center" timestamp="1590042094410">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1589796449714" />
+    <state width="937" height="96" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1590042094410" />
     <state width="937" height="2" key="GridCell.Tab.1.center/0.23.1280.710@0.23.1280.710" timestamp="1588154573523" />
-    <state width="937" height="2" key="GridCell.Tab.1.left" timestamp="1589796449714">
+    <state width="937" height="96" key="GridCell.Tab.1.left" timestamp="1590042094409">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1589796449714" />
+    <state width="937" height="96" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1590042094409" />
     <state width="937" height="2" key="GridCell.Tab.1.left/0.23.1280.710@0.23.1280.710" timestamp="1588154573523" />
-    <state width="937" height="2" key="GridCell.Tab.1.right" timestamp="1589796449715">
+    <state width="937" height="96" key="GridCell.Tab.1.right" timestamp="1590042094410">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1589796449715" />
+    <state width="937" height="96" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1590042094410" />
     <state width="937" height="2" key="GridCell.Tab.1.right/0.23.1280.710@0.23.1280.710" timestamp="1588154573524" />
-    <state width="937" height="2" key="GridCell.Tab.2.bottom" timestamp="1589796449732">
+    <state width="937" height="96" key="GridCell.Tab.2.bottom" timestamp="1590042094411">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.2.bottom/0.23.1280.709@0.23.1280.709" timestamp="1589796449732" />
+    <state width="937" height="96" key="GridCell.Tab.2.bottom/0.23.1280.709@0.23.1280.709" timestamp="1590042094411" />
     <state width="937" height="2" key="GridCell.Tab.2.bottom/0.23.1280.710@0.23.1280.710" timestamp="1588154573525" />
-    <state width="937" height="2" key="GridCell.Tab.2.center" timestamp="1589796449719">
+    <state width="937" height="96" key="GridCell.Tab.2.center" timestamp="1590042094410">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.2.center/0.23.1280.709@0.23.1280.709" timestamp="1589796449719" />
+    <state width="937" height="96" key="GridCell.Tab.2.center/0.23.1280.709@0.23.1280.709" timestamp="1590042094410" />
     <state width="937" height="2" key="GridCell.Tab.2.center/0.23.1280.710@0.23.1280.710" timestamp="1588154573525" />
-    <state width="937" height="2" key="GridCell.Tab.2.left" timestamp="1589796449718">
+    <state width="937" height="96" key="GridCell.Tab.2.left" timestamp="1590042094410">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.2.left/0.23.1280.709@0.23.1280.709" timestamp="1589796449718" />
+    <state width="937" height="96" key="GridCell.Tab.2.left/0.23.1280.709@0.23.1280.709" timestamp="1590042094410" />
     <state width="937" height="2" key="GridCell.Tab.2.left/0.23.1280.710@0.23.1280.710" timestamp="1588154573524" />
-    <state width="937" height="2" key="GridCell.Tab.2.right" timestamp="1589796449731">
+    <state width="937" height="96" key="GridCell.Tab.2.right" timestamp="1590042094410">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.2.right/0.23.1280.709@0.23.1280.709" timestamp="1589796449731" />
+    <state width="937" height="96" key="GridCell.Tab.2.right/0.23.1280.709@0.23.1280.709" timestamp="1590042094410" />
     <state width="937" height="2" key="GridCell.Tab.2.right/0.23.1280.710@0.23.1280.710" timestamp="1588154573525" />
-    <state width="937" height="2" key="GridCell.Tab.3.bottom" timestamp="1589796449717">
+    <state width="937" height="303" key="GridCell.Tab.3.bottom" timestamp="1590041979915">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.3.bottom/0.23.1280.709@0.23.1280.709" timestamp="1589796449717" />
+    <state width="937" height="303" key="GridCell.Tab.3.bottom/0.23.1280.709@0.23.1280.709" timestamp="1590041979915" />
     <state width="937" height="9" key="GridCell.Tab.3.bottom/0.23.1280.710@0.23.1280.710" timestamp="1588149183516" />
-    <state width="937" height="2" key="GridCell.Tab.3.center" timestamp="1589796449716">
+    <state width="937" height="303" key="GridCell.Tab.3.center" timestamp="1590041979914">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.3.center/0.23.1280.709@0.23.1280.709" timestamp="1589796449716" />
+    <state width="937" height="303" key="GridCell.Tab.3.center/0.23.1280.709@0.23.1280.709" timestamp="1590041979914" />
     <state width="937" height="9" key="GridCell.Tab.3.center/0.23.1280.710@0.23.1280.710" timestamp="1588149183515" />
-    <state width="937" height="2" key="GridCell.Tab.3.left" timestamp="1589796449716">
+    <state width="937" height="303" key="GridCell.Tab.3.left" timestamp="1590041979914">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.3.left/0.23.1280.709@0.23.1280.709" timestamp="1589796449716" />
+    <state width="937" height="303" key="GridCell.Tab.3.left/0.23.1280.709@0.23.1280.709" timestamp="1590041979914" />
     <state width="937" height="9" key="GridCell.Tab.3.left/0.23.1280.710@0.23.1280.710" timestamp="1588149183514" />
-    <state width="937" height="2" key="GridCell.Tab.3.right" timestamp="1589796449716">
+    <state width="937" height="303" key="GridCell.Tab.3.right" timestamp="1590041979915">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="937" height="2" key="GridCell.Tab.3.right/0.23.1280.709@0.23.1280.709" timestamp="1589796449716" />
+    <state width="937" height="303" key="GridCell.Tab.3.right/0.23.1280.709@0.23.1280.709" timestamp="1590041979915" />
     <state width="937" height="9" key="GridCell.Tab.3.right/0.23.1280.710@0.23.1280.710" timestamp="1588149183516" />
     <state width="937" height="194" key="GridCell.Tab.4.bottom" timestamp="1589336481470">
       <screen x="0" y="23" width="1280" height="709" />
@@ -596,38 +596,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/dy/controller/DyUserController.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dy/controller/DyUserController.java</url>
           <line>45</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/dy/controller/DyShopController.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dy/service/impl/DyUserServiceImpl.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dy/service/impl/DyUserServiceImpl.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dy/controller/DyTestController.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dy/controller/DyTestController.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

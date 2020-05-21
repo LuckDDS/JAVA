@@ -30,7 +30,23 @@
         <property name="dataSource" ref="dataSource"/>
         <!--扫描sql配置文件:mapper需要的xml-->
         <property name="mapperLocations" value="classpath:mapper/*.xml"/>
-
+        <!--配置分页插件-->
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <value>
+                            <!--数据库类型为mysql-->
+                            helperDialect=mysql
+                            <!--启用合理化时,如果pageNum<1会查询第一页,如果禁用合理化时,如果
+                            pageNum<1或者pageNum>pages 会返回空数据-->
+                            reasonable = true
+                        </value>
+                    </property>
+                </bean>
+            </array>
+        </property>
+        
     </bean>
     <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
         <constructor-arg index="0" ref="sqlSessionFactory"/>

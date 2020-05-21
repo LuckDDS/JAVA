@@ -7,11 +7,17 @@ package com.dy.factory;
  */
 public class FactoryMethodPattern {
     public static void main(String[] args) throws Exception{
+        //创建一个汽车工厂
         Factory carFactory = new CarFactory();
+        //生产一个汽车
         Vehicle car = carFactory.produce();
+        //汽车执行任务
         car.run();
+        //创建一个公交车工厂
         Factory busFactory = new BusFactory();
+        //生产一个公交车
         Vehicle bus = busFactory.produce();
+        //公交车执行任务
         bus.run();
     }
 
@@ -25,9 +31,7 @@ interface Factory{
      * @return 交通工具
      * */
     Vehicle produce();
-
 }
-
 /**
  * 汽车工厂
  * */

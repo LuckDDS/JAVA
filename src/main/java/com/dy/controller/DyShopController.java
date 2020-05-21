@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
@@ -12,7 +13,7 @@ import javax.annotation.Resource;
  * @author DongDeShuai
  * @Date:2020/5/13 3:30 下午
  */
-@Controller
+@RestController
 @RequestMapping("/shop")
 public class DyShopController {
     @Resource
@@ -23,6 +24,4 @@ public class DyShopController {
         dyShopService.createShop(userId,shopName);
         return "hello";
     }
-
-
 }
