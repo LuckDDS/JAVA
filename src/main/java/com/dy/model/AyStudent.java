@@ -1,4 +1,5 @@
 package com.dy.model;
+import lombok.Getter;
 
 /**
  * @author DongDeShuai

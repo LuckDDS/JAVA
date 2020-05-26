@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.validation.Valid;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author DongDeShuai
@@ -96,13 +95,12 @@ public class DyTestController {
         System.out.println(result);
 
     }
+    /**
+     * 传过来的参数的k-v键值和model一致的话会自动转换为对应的model值
+     */
     @PostMapping("/testModel")
     public String testModel(@RequestBody AyUser ayUser){
-
         System.out.println(ayUser);
-
         return "hello";
-
     }
-
 }

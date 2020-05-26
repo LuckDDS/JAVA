@@ -3,7 +3,8 @@ package com.dy.service;
 import com.dy.model.AyStudent;
 import com.dy.model.AyUser;
 import com.dy.model.DyUser;
-import org.apache.ibatis.annotations.Param;
+import jdk.nashorn.internal.objects.annotations.Getter;
+import jdk.nashorn.internal.objects.annotations.Setter;
 
 import java.util.List;
 
