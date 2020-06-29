@@ -18,7 +18,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <!--添加spring框架,下面的这个是相当于iOS中的#define,统一一个版本,下面的直接引用${spring.version}-->
-    <spring.version>5.0.4.RELEASE</spring.version>
+    <spring.version>5.2.6.RELEASE</spring.version>
     <!--配置spring-mvc-->
     <javax.servlet.version>4.0.0</javax.servlet.version>
     <jstl.version>1.2</jstl.version>
