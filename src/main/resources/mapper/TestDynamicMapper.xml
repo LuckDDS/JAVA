@@ -80,7 +80,7 @@
         </where>
     </select>
 
-    <!--bind元素-->
+    <!--bind元素,模糊查询-->
 <!--    <select id="findByNameAndPassword" resultMap="userMap">-->
 <!--        <bind name="realname_pattern" value="'%'+realname+'%'"/>-->
 <!--        <bind name="password_pattern" value="'%'+password+'%'"/>-->

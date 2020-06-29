@@ -8,7 +8,7 @@
         <result column="user_password" jdbcType="VARCHAR" property="password"/>
     </resultMap>
     <sql id="userField">
-        <!--因为user_address在resultMap UserMessage中未定义所以需要对其进行转换,user_address在
+        <!--因为user_address在resultMap UserMessage中未定义所以需要对其进行转换,user_address是在
         数据库中的名称,需要对应address这是model中的昵称-->
         user_id,user_realname,user_address as address
     </sql>

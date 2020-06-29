@@ -5,7 +5,54 @@
         insert into dy_user (user_phone,user_password) values (#{phone},#{password})
     </insert>
     <update id="updateUserMessage" parameterType="com.dy.model.DyUser">
-        update dy_user set user_realname = #{realname},user_nickname = #{nickname},
-        user_address=#{address},user_gender=#{gender} where user_id = #{id}
+--         update dy_user set user_realname = #{realname},user_nickname = #{nickname},
+--         user_address=#{address},user_gender=#{gender} where user_id = #{id}
+        update dy_user
+        <trim prefix="">
+
+        </trim>
+        <set>
+            <if test="realname != null and realname != ''">
+                user_realname = #{realname},
+            </if>
+            <if test="nickname != '' and nickname != null">
+                user_nickname = #{nickname},
+            </if>
+            <if test="address != null and address != ''">
+                user_address = #{address},
+            </if>
+            <if test="gender != null and gender != ''">
+                user_gender = #{gender},
+            </if>
+        </set>
+
+        <where>
+            <if test="realname != null and realname != ''">
+                user_realname = #{realname}
+            </if>
+            <if test="nickname != null and nickname != ''">
+                and user_nickname = #{nickname}
+            </if>
+        </where>
+
     </update>
+<!--    <select id="sel" resultMap="test" parameterType="string">-->
+<!--        select-->
+<!--        <include refid="testone"/>-->
+<!--        <trim prefix="where" prefixOverrides="and">-->
+<!--            <if test="realname != null and realname !=''">-->
+<!--                user_realname = #{realname}-->
+<!--            </if>-->
+<!--            <if test="id != null and id != ''">-->
+<!--                and user_id = #{id}-->
+<!--            </if>-->
+<!--        </trim>-->
+<!--    </select>-->
+    <sql id="testone">
+        user_id,user_name
+    </sql>
+    <resultMap id="test" type="com.dy.model.AyUser">
+        <id property="id" column="id"/>
+        <result property="name" column="user_name"/>
+    </resultMap>
 </mapper>

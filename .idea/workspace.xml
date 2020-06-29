@@ -7,13 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37d4bce-953c-4ae2-9f39-75086381a3c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/controller/DyTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/model/AyStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/model/AyStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dy/service/DyUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dy/service/DyUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AyUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AyUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DyUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DyUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DyUserTestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DyUserTestMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TestDynamicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TestDynamicMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,7 +390,10 @@
       <workItem from="1590043181789" duration="82000" />
       <workItem from="1590370378255" duration="7689000" />
       <workItem from="1590399849803" duration="678000" />
-      <workItem from="1590455600095" duration="699000" />
+      <workItem from="1590455600095" duration="925000" />
+      <workItem from="1591168359976" duration="3613000" />
+      <workItem from="1591688598552" duration="207000" />
+      <workItem from="1592531712346" duration="2526000" />
     </task>
     <servers />
   </component>
@@ -599,16 +600,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/dy/controller/DyUserController.java</url>
           <line>45</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dy/controller/DyShopController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dy/controller/DyTestController.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
